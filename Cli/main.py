@@ -6,7 +6,7 @@ def _main():
 
 
     clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    clientsocket.connect((_addr, _port))
+    clientsocket.connect((_addr, int(_port)))
     while True:
         _in = raw_input("> ")
         if _in == "end" or _in == "exit" or _in == "quit":

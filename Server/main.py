@@ -5,6 +5,7 @@ print("RUNNING")
 s = socket.socket()
 print("> Socket created")
 host = socket.gethostname()
+print("> IP: " + host)
 port = 4416
 print("> Host: " + str(host) + " Port: " + str(port))
 
