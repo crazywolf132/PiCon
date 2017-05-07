@@ -13,3 +13,5 @@ def _main():
             break
         else:
             clientsocket.send(_in)
+
+_main()
